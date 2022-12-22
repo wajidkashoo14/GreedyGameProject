@@ -1,0 +1,80 @@
+.settingsContainer {
+  width: 100%;
+  font-family: "Adobe clean", sans-serif;
+  margin-top: 1rem;
+  min-height: 15rem;
+  max-height: 30rem;
+  border-radius: 5px;
+  border: 1px solid #d2d8da;
+  padding: 1.5rem 1rem;
+  box-sizing: border-box;
+}
+
+.btndivshow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  transition: all 0.2s;
+}
+
+.settingsbtn,
+.normalbtn {
+  padding: 0.6rem 0.5rem;
+  width: 7rem;
+  color: black;
+  background-color: transparent;
+  border-radius: 3px;
+  text-align: left;
+  border: none;
+  border: 1px solid #bfc8cb;
+  transition: all 0.2s;
+  font-size: 0.8rem;
+  font-weight: 400;
+  cursor: pointer;
+  font-family: "Adobe clean", sans-serif;
+  gap: 5px;
+}
+
+.settingsbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-family: "Adobe clean", sans-serif;
+  font-weight: 500;
+}
+
+.btnsdiv {
+  display: flex;
+  margin-left: auto;
+  justify-content: flex-end;
+  align-items: baseline;
+  gap: 1rem;
+  font-family: "Adobe clean", sans-serif;
+  transform: translateY(30px);
+}
+
+.btnclose {
+  padding: 0.5rem 1rem;
+  color: #136fed;
+  border: 1px solid #136fed;
+  background: transparent;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-family: "Adobe clean", sans-serif;
+  font-weight: 500;
+}
+
+.btnapply {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: #136fed;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border: none;
+  font-size: 0.9rem;
+  font-family: "Adobe clean", sans-serif;
+  font-weight: 500;
+}

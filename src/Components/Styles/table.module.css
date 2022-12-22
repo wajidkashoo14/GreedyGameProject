@@ -1,0 +1,36 @@
+.table {
+  min-width: 100%;
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+table {
+  min-height: 40vh;
+  border-radius: 0.5rem;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+  border: none;
+  min-width: 90vw;
+}
+th {
+  background-color: #ffffff;
+  color: black;
+  font-size: 0.9rem;
+  padding: 0 1rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+  text-align: left;
+  opacity: 0.8;
+}
+
+td {
+  border-bottom: 1px solid #d2d8da;
+  padding: 0.6rem 1rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: black;
+}
